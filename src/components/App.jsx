@@ -4,7 +4,7 @@ import Filter from "./Filter/Filter";
 import ContactList from "./ContactList/ContactList";
 import css from "./App.module.css";
 
-const App =()=>
+const App = () =>
 {
   const [contacts, setContacts] = useState(
     ()=>{
